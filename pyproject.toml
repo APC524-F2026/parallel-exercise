@@ -1,0 +1,10 @@
+[project]
+name = "parallel-exercise"
+version = "0.1.0"
+description = "Assignment on computing the area of the Mandelbrot set"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+res = ["numpy", "matplotlib"]
+test = ["pytest", "matplotlib"]
