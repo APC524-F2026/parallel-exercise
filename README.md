@@ -8,7 +8,7 @@ This assignment involves speeding up a small script. You will do this in a compi
 
 The Mandelbrot Set is a fractal defined as the set of points on the complex plane for which the following recursion does not diverge to infinity:
 
-$$\begin{matrix}z_0(c) = 0\\ z_k(c) = z_{k-1}^2 + c \\ c\in M \text{ iff } \sup_{k\in \mathbb{Z}^+} |z_k(c)| < \infty\end{matrix}$$
+$$\begin{matrix}z_0(c) = 0\\\\ z_k(c) = z_{k-1}^2 + c \\\\ c\in M \text{ iff } \sup_{k\in \mathbb{Z}^+} |z_k(c)| < \infty\end{matrix}$$
 
 While many techniques have been designed to compute this set, we will stick to a simple rule: after some large number of iterations, we say that $c$ is *probably* in this set if $|z_k| \le L$ up to a given iteration and for a chosen $L$ (one can show that $L = 2$ is the best value for this). More formally, we define the sequence of sets:
 
